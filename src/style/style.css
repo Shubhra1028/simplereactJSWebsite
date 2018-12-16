@@ -1,0 +1,6 @@
+/* For Dashboard */
+@import './componentStyle/dashboard.css';
+
+.spacer{
+    width: stretch
+}
