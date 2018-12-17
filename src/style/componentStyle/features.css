@@ -1,0 +1,51 @@
+.features{
+    padding: 48px 16px;
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: "Noto Serif",Georgia,"Times New Roman",Times,serif;
+}
+
+.features .title{
+    color: #2e4453;
+    font-weight: 700
+}
+
+.features h1{
+    font-size: 32px;
+    margin: 0;
+    padding: 20px;
+}
+
+.features .featuresGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 80px;
+    margin: 0.5in auto;
+}
+
+.features .featureTitle{
+    font-size: 21px;
+    margin: 0;
+    padding: 10px 20px
+}
+
+.features .featureContent{
+    color: #4f748e;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.features .btn{
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+    background-color: #00aadc !important;
+    border: 1px solid #0087be;
+    border-bottom-width: 2px;
+    padding: 0.5em 1em;
+    height: auto;
+    line-height: normal;
+}

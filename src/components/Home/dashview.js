@@ -19,18 +19,28 @@ class DashView extends Component{
 
     render(){
         return(
-            <div className="dashboard">
-                <div className="topbar">
-                    <h2>Dummy Me!</h2>
-                    <ul className="navList ">
-                        {this.returnList(this.state.otherLinks)}
-                    </ul>
-                    <div className="spacer" />
-                    <ul className="navList ">
-                        {this.returnList(this.state.authLinks)}
-                    </ul>
+                <div className="dashboard">
+                    <div className="topbar">
+                        <p className="logo">DummyMe!</p>
+                        <ul className="navList ">
+                            {this.returnList(this.state.otherLinks)}
+                        </ul>
+                        <div className="spacer" />
+                        <ul className="navList ">
+                            {this.returnList(this.state.authLinks)}
+                        </ul>
+                    </div>
+                    <div className="motto">
+                        <h1>Easily create your amazing dummy</h1>
+                        <p>Dummy.com brings the power of building beautiful, secure, mobile and SEO friendly websites in few simple steps.</p>
+                        <button class="waves-effect waves-light btn blue white-text">get started</button>
+                        <button class="waves-effect waves-light btn white">see plans</button>
+                    </div>
+                    <div className="dashBottom blue">
+                        <span class="waves-effect waves-light btn yellow white-text">New</span>
+                        <p className="white-text">Business plans allows you to sell online with access to thousands of plugins and themes!</p>
+                    </div>
                 </div>
-            </div>
         )
     }
 }

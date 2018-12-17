@@ -1,26 +1,30 @@
 .dashboard{
-    height: 80vh;
-    background: linear-gradient(to right, #00000040 0%, transparent 100%), url( 'https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg' ), fixed;
+    min-height: 765px;
+    background: linear-gradient(to bottom right, #000000c7 0%, transparent 100%), url( 'https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg' );
     background-position: center;
-    background-size: cover
+    background-size: cover;
+    position: relative;
 }
 
 .dashboard .topbar{
     display: flex;
-    /* color: #fff; */
+    color: #fff;
     text-align: left;
     align-content: flex-start;
 }
 
-.dashboard .topbar h2{
+.dashboard .topbar .logo{
     margin: 0;
     font-weight: 500;
-    font-size: 2.2em;
-    width: max-content
+    font-size: 1.2em;
+    width: -webkit-max-content;
+    padding: 10px;
+
 }
 
 .navList{
     display: flex;
+    margin: 0;
 }
 
 .navList>li{
@@ -28,8 +32,68 @@
     width: max-content;
     padding: 10px;
     height: 100%;
+    font-size: 1.2em;
+    font-weight: 400
 }
 
 .navList>li:hover{
-    background: crimson;
+    background: rgba(0, 0, 0, 0.596);
+}
+
+.dashboard .motto{
+    color: #fff;
+    text-align: left;
+    width: 60vw;
+    padding: 0.25in 0 0.5vmin 1in
+}
+
+.dashboard .motto p{
+    font-size: 20px
+}
+
+@media only screen and (max-width: 786px){
+    .dashboard .motto{
+        width: 100%;
+    }
+}
+
+.dashboard .motto button{
+    margin-right: 20px;
+    text-transform: capitalize;
+    padding: 0px 50px;
+    font-size: 18px;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+}
+
+.dashboard .motto .blue{
+    border-color: #0087be;
+    background-color: #00aadc !important;
+}
+
+.dashboard .motto .white{
+    border-color: #c8d7e1;
+    color: #2e4453
+}
+
+.dashboard .dashBottom{
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.dashboard .dashBottom *{
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 10px
+}
+.dashboard .dashBottom p{
+    font-size: 21px;
+    margin: 0
+}
+
+.blue{
+    background-color: #0087be !important
 }

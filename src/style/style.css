@@ -1,6 +1,12 @@
 /* For Dashboard */
 @import './componentStyle/dashboard.css';
 
+/* For Features */
+@import './componentStyle/features.css';
+
 .spacer{
     width: stretch
+}
+*{
+    font-family: "Noto Sans",Helvetica,Arial,sans-serif;
 }
