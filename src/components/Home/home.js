@@ -2,6 +2,7 @@ import React from 'react'
 import DashView from './dashview'
 import Features from './features'
 import Banner from './banner'
+import Plansview from './plans'
 
 const Home = ()=>{
     return(
@@ -9,6 +10,7 @@ const Home = ()=>{
             <DashView />
             <Features />
             <Banner />
+            <Plansview />
         </div>
     )
 } 

@@ -7,8 +7,11 @@
 /* For Banner */
 @import './componentStyle/banner.css';
 
+/* For Plans */
+@import './componentStyle/plans.css';
+
 .spacer{
-    width: stretch
+    width: stretch !important;
 }
 *{
     font-family: "Noto Sans",Helvetica,Arial,sans-serif;
@@ -34,4 +37,11 @@ html{
 
 .myBlueBtn:hover{
     border-color: #005082
+}
+
+h1, h2{
+    margin: 0;
+    font-family: "Noto Serif",Georgia,"Times New Roman",Times,serif;
+    color: #2e4453;
+    padding: 0.4em 0;
 }

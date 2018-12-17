@@ -1,0 +1,105 @@
+.plans{
+    background-color: #f3f6f8;
+    padding: 48px 16px;
+}
+
+.plans h1{
+    font-size: 32px;
+    font-weight: 700
+}
+
+.plans .plansGrid{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 48px 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.plans .plansGrid {
+    text-align: left;
+}
+
+.plans .title{
+    font-size: 24px !important;
+    color: #0087be;
+}
+
+.plans .price{
+    font-size: 28px;
+    line-height: 1.5;
+    color: #3d596d
+}
+
+.plans .planTime{
+    font-size: 12px;
+    font-style: italic;
+    color: #779ab3
+}
+
+.plans .plansGrid .collection .collection-item.avatar{
+    display: grid;
+    align-items: center;
+    padding-left: 80px;
+    border-bottom: 2px solid;
+}
+
+.plans .plansGrid .collection img{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.plans .plansGrid .collection, .plans .plansGrid .collection .collection-item{
+    background-color: #fafbfc
+}
+
+.plans .plansGrid .collection .flexList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.plans .plansGrid .collection .flexList.collection-item{
+    padding: 10px;
+}
+
+.plans .plansGrid .collection .flexList .planDet{
+    width: 80%
+}
+
+.plans .plansGrid .collection .myBlueBtn{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.plans .plansGrid .subtitle{
+    color: #5c86a4;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px
+}
+
+.plans .plansGrid .content{
+    color: #87a6bc;
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.plans .atBottom{
+    position: absolute;
+    padding: 0 24px 24px;
+    width: 100%;
+    bottom: 0;
+}
+
+.plans .atBottom .myBlueBtn{
+    margin-bottom: 0 !important;
+}
+
+.plans .plansGrid .collection{
+    padding-bottom: 80px
+}

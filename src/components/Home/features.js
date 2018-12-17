@@ -38,9 +38,9 @@ class Features extends Component{
     }
 
     returnList = (list)=>{
-        return list.map((item)=>{
+        return list.map((item, id)=>{
             return (
-                <div>
+                <div key={id}>
                     <img src={item.imgurl} alt={item.title} width="100%" />
                     <p className="featureTitle title"> {item.title} </p>
                     <p className="featureContent"> {item.content} </p>

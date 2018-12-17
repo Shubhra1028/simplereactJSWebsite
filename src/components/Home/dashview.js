@@ -12,8 +12,8 @@ class DashView extends Component{
     }
 
     returnList = (list)=>{
-        return list.map((item)=>{
-            return <li> {item} </li>
+        return list.map((item, id)=>{
+            return <li key={id}> {item} </li>
         })
     }
 
@@ -31,13 +31,13 @@ class DashView extends Component{
                         </ul>
                     </div>
                     <div className="motto">
-                        <h1>Easily create your amazing dummy</h1>
+                        <h1 className="white-text">Easily create your amazing dummy</h1>
                         <p>Dummy.com brings the power of building beautiful, secure, mobile and SEO friendly websites in few simple steps.</p>
-                        <button class="waves-effect waves-light btn blue white-text">get started</button>
-                        <button class="waves-effect waves-light btn white">see plans</button>
+                        <button className="waves-effect waves-light btn blue white-text">get started</button>
+                        <button className="waves-effect waves-light btn white">see plans</button>
                     </div>
                     <div className="dashBottom blue">
-                        <span class="waves-effect waves-light btn yellow white-text">New</span>
+                        <span className="waves-effect waves-light btn yellow white-text">New</span>
                         <p className="white-text">Business plans allows you to sell online with access to thousands of plugins and themes!</p>
                     </div>
                 </div>
