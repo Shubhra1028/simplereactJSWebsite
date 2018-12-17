@@ -77,6 +77,10 @@
     color: #2e4453
 }
 
+.dashboard .motto h1{
+    font-size: 44px;
+}
+
 .dashboard .dashBottom{
     padding: 16px;
     position: absolute;

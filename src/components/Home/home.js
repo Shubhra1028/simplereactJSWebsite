@@ -3,6 +3,7 @@ import DashView from './dashview'
 import Features from './features'
 import Banner from './banner'
 import Plansview from './plans'
+import Faq from './faq'
 
 const Home = ()=>{
     return(
@@ -11,6 +12,7 @@ const Home = ()=>{
             <Features />
             <Banner />
             <Plansview />
+            <Faq />
         </div>
     )
 } 

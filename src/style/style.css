@@ -10,6 +10,9 @@
 /* For Plans */
 @import './componentStyle/plans.css';
 
+/* For FAQ */
+@import './componentStyle/faq.css';
+
 .spacer{
     width: stretch !important;
 }
