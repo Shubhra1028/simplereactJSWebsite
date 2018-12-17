@@ -56,7 +56,7 @@ class Features extends Component{
                     <div className="featuresGrid">
                         {this.returnList(this.state.features)}
                     </div>
-                    <div className="btn white-text">Get Started</div>
+                    <div className="myBlueBtn btn white-text">Get Started</div>
                 </div>
         )
     }

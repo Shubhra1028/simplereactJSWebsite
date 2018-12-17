@@ -49,3 +49,7 @@
     height: auto;
     line-height: normal;
 }
+
+.features .btn:hover{
+    border-color: #005082
+}

@@ -4,9 +4,34 @@
 /* For Features */
 @import './componentStyle/features.css';
 
+/* For Banner */
+@import './componentStyle/banner.css';
+
 .spacer{
     width: stretch
 }
 *{
     font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+}
+
+html{
+    height: -webkit-fill-available;
+}
+
+.myBlueBtn{
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+    background-color: #00aadc !important;
+    border: 1px solid #0087be;
+    border-bottom-width: 2px;
+    padding: 0.5em 1em;
+    height: auto;
+    line-height: normal;
+}
+
+.myBlueBtn:hover{
+    border-color: #005082
 }

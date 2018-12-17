@@ -1,0 +1,30 @@
+.banner{
+    background-color: #2e4453;
+    min-height: 50vh;
+    margin: 0;
+    color: #fff;
+}
+
+.banner .bannerGrid{
+    display: grid;
+    max-width: 1140px;
+    padding: 0.5in 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    grid-gap: 1in;
+    align-items: center;
+}
+
+.banner .bannerGrid h2{
+    font-family: "Noto Serif",Georgia,"Times New Roman",Times,serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.banner .bannerGrid p{
+    font-size: 21px;
+}
+
