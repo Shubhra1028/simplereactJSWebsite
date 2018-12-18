@@ -1,0 +1,46 @@
+.trusted{
+    min-height: 500px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-family: "Noto Serif",Georgia,"Times New Roman",Times,serif;
+    -webkit-font-smoothing: antialiased;
+    background: 
+    linear-gradient(to bottom, #00aadc 0%,
+                             #00000000 30%,
+                             #00000000 70%, 
+                             #00aadc 100%),
+                             #00aadc
+                              url('https://www.haibua.com/uploads/5/0/2/2/5022665/websites-omaha_orig.png')
+                              fixed;
+    background-size: contain;
+    transition: none !important;
+    background-position-x: 50%;
+
+}
+
+.trusted h3{
+    font-weight: 700;
+    font-family: "Noto Serif",Georgia,"Times New Roman",Times,serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 32px;
+    color: #fff;
+}
+
+.trusted .white{
+    border-color: #c8d7e1 !important;
+    color: #2e4453
+}
+
+.trusted .btn{
+    text-transform: capitalize;
+    padding: 0px 20px;
+    font-size: 18px;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+}
+
+.trusted .btn:hover{
+    border-color: #a8bece !important
+}

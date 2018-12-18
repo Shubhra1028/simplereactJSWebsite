@@ -1,12 +1,12 @@
 .dashboard{
     min-height: 765px;
-    background: linear-gradient(to bottom right, #000000c7 0%, transparent 100%), url( 'https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg' );
+    background: linear-gradient(to bottom right, #000000c7 0%, transparent 100%), url( 'https://i.pinimg.com/originals/7d/c7/11/7dc711b1222ead44e1770cf48805af75.jpg' );
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.dashboard .topbar{
+.topbar{
     display: flex;
     color: #fff;
     text-align: left;

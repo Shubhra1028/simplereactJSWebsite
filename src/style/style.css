@@ -13,11 +13,20 @@
 /* For FAQ */
 @import './componentStyle/faq.css';
 
+/* For Trusted */
+@import './componentStyle/trusted.css';
+
+/* For Footer */
+@import './componentStyle/footer.css';
+
 .spacer{
     width: stretch !important;
 }
 *{
     font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition:all .2s ease-in
+
 }
 
 html{

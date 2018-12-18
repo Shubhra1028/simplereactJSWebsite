@@ -1,0 +1,8 @@
+.footer .topbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 48px 16px;
+}
+.footer .topbar .navList li{
+    font-size: 14px !important;
+}

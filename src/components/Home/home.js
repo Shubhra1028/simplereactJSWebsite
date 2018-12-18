@@ -4,6 +4,8 @@ import Features from './features'
 import Banner from './banner'
 import Plansview from './plans'
 import Faq from './faq'
+import Trusted from './trusted'
+import Footer from './footer'
 
 const Home = ()=>{
     return(
@@ -13,6 +15,8 @@ const Home = ()=>{
             <Banner />
             <Plansview />
             <Faq />
+            <Trusted />
+            <Footer />
         </div>
     )
 } 
