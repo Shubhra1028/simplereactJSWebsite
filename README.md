@@ -1,3 +1,6 @@
+This project is just made for practice. All the contents have been taken from another website.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
